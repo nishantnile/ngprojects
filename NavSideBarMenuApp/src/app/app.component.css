@@ -1,0 +1,14 @@
+.example-container {
+	position: absolute;
+	min-height: 100% !important;
+	width: 100%;
+}
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+.example-sidenav {
+	width: 40%;
+}
+.tbicon{
+	margin-left: 20px;
+}	

@@ -1,0 +1,36 @@
+<div layout="row">
+	<!--<nav>
+		<a>Navigation:</a>
+		<ul>
+			<li><a [routerLink]="['home']">Home</a></li>
+			<li><a [routerLink]="['about']">About</a></li>
+			<li><a [routerLink]="['contact']">Contact Us</a></li>
+		</ul>
+	</nav>
+	-->
+	<!--
+	<md-nav-list>
+		<a md-list-item [routerLink]="['home']">Home</a>
+		<a md-list-item [routerLink]="['about']">About</a>
+		<a md-list-item [routerLink]="['contact']">Contact</a>
+	</md-nav-list>
+	-->
+	<nav md-tab-nav-bar>
+		<a md-tab-link [routerLink]="['home']">Home</a>
+		<a md-tab-link [routerLink]="['about']">About</a>
+		<a md-tab-link [routerLink]="['contact']">Contact</a>
+	</nav>
+	<router-outlet></router-outlet>
+</div>
+<!--
+<button md-raised-button>
+  Angular Material works!
+  <md-icon>done</md-icon>
+</button>
+<div>
+    <a md-button color="primary">Flat button</a>
+    <a md-raised-button color="accent">Raised button</a>
+    <a md-fab color="primary"><md-icon>check</md-icon></a>
+    <a md-mini-fab color="primary"><md-icon>check</md-icon></a>
+  </div>
+ -->
